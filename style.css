@@ -142,6 +142,7 @@
   color: white;
   border-radius: 20px;
   padding: 15px 5px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .main_page_box_title {
@@ -153,6 +154,10 @@
 .main_page_box_description {
   font-size: 18px;
   color: #e6e6e6;
+}
+
+.main_page_box:hover {
+  transform: scale(1.2);
 }
 
 .tela {
