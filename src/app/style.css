@@ -1,26 +1,26 @@
 @font-face {
   font-family: "HoneyLemone";
-  src: url("./fontes/HoneyLemone.ttf") format("ttf");
+  src: url("../../public/fonts/HoneyLemone.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "LEMONMILK";
-  src: url("./fontes/lemon_milk/LEMONMILK-Regular.otf") format("otf");
+  src: url("../../public/fonts/lemon_milk/LEMONMILK-Regular.otf") format("otf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "LEMONMILK_BOLD";
-  src: url("./fontes/lemon_milk/LEMONMILK-Bold.otf") format("otf");
+  src: url("../../public/fonts/lemon_milk/LEMONMILK-Bold.otf") format("otf");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "LEMONMILK_BOLD";
-  src: url("./fontes/lemon_milk/LEMONMILK-Medium.otf") format("otf");
+  src: url("../../public/fonts/lemon_milk/LEMONMILK-Medium.otf") format("otf");
   font-weight: 400;
 }
 
@@ -35,6 +35,12 @@
 }
 
 .header_menu {
+  width: 22px;
+  color: #fa5207;
+}
+
+.icon {
+  width: 22px;
   color: #fa5207;
 }
 
@@ -92,7 +98,6 @@
 .lista_btn {
   background-color: #58fa0f;
   border: none;
-  color: white;
   padding: 7px 15px;
   width: 10%;
   text-decoration: none;
@@ -111,7 +116,7 @@
   justify-content: center;
   height: 90vh;
   padding: 0% 20%;
-  background-image: url("./assets/bg_caridade.png");
+  background-image: url("../../public/bg_caridade.png");
   background-repeat: no-repeat;
   background-size: contain;
   font-family: "LEMONMILK", sans-serif;
